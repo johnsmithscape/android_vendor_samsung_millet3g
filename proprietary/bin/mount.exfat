@@ -1,0 +1,2 @@
+#!/system/bin/sh
+mount -t exfat $1 $2 $3 $4 $5

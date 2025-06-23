@@ -16,6 +16,7 @@
 
 ## jf-common/common-proprietary-files.txt
 PRODUCT_COPY_FILES += \
+	vendor/samsung/millet3g/proprietary/build.prop:system/build.prop \
 	vendor/samsung/millet3g/proprietary/bin/adsprpcd:system/bin/adsprpcd \
 	vendor/samsung/millet3g/proprietary/vendor/lib/libadsprpc.so:system/vendor/lib/libadsprpc.so \
 	vendor/samsung/millet3g/proprietary/vendor/lib/libfastcvadsp_stub.so:system/vendor/lib/libfastcvadsp_stub.so \
@@ -32,6 +33,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/millet3g/proprietary/etc/Hdmi_cal.acdb:system/etc/Hdmi_cal.acdb \
 	vendor/samsung/millet3g/proprietary/etc/Headset_cal.acdb:system/etc/Headset_cal.acdb \
 	vendor/samsung/millet3g/proprietary/etc/Speaker_cal.acdb:system/etc/Speaker_cal.acdb \
+	vendor/samsung/millet3g/proprietary/etc/audio_policy.conf:system/etc/audio_policy.conf \
 	vendor/samsung/millet3g/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
 	vendor/samsung/millet3g/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
 	vendor/samsung/millet3g/proprietary/vendor/lib/libadiertac.so:system/vendor/lib/libadiertac.so \
